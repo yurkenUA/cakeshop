@@ -1,0 +1,37 @@
+@use "bulma/sass/index";
+@import "./normalize.css";
+
+section {
+    height: 100vh;
+}
+
+.box {
+    border: 1px solid #dfcdd0;
+}
+
+.input {
+    border: 1px solid #dfcdd0;
+    &::placeholder {
+        color: #dfcdd0;
+        opacity: 1;
+    }
+}
+
+.dark-pink {
+    color: #e09daa;
+}
+a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+.span-label {
+    position: absolute;
+    top: -8px;
+    font-size: 12px;
+    color: #dfcdd0;
+    left: 0;
+}
+
+p {
+    text-align: justify;
+}
